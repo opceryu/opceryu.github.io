@@ -1,0 +1,58 @@
+html, body {
+	height:100%;
+}
+
+body{
+	padding-top: 0;
+	margin: 0;
+	background-color: #202020;
+}
+
+#sketch-holder {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+}
+
+.top{
+	margin: 0;
+	background-color: #404040;
+}
+
+.toolbar {
+	float: right;
+	display: inline;
+	margin: 0;
+	height:100%;
+	background-color: #404040;
+	padding-top: 50px;
+}
+
+.toolbar ul{
+	list-style-type: none;
+	padding: 10px;
+	margin: 0;
+	padding-right: 15px;
+	text-align: center;
+}
+
+.toolbar button{
+	background-color: #303030;
+	color: white;
+	padding: 10px;
+	border: 0;
+}
+
+.toolbar button:hover{
+	background-color: #606060;
+	cursor: pointer;
+}
+
+.toolbar button:focus {
+    background-color: #555555;
+}
+
+.toolbar li{
+	padding: 10px;
+}

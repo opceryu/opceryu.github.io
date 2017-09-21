@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced XOX</title>
+
+        <meta name="author" content="Yiğit Karataş">
+        <meta charset="UTF-8">
+        <meta name="keywords" content="XOX,Advanced,AdvancedXOX,Yiğit Karataş,game,online game,XOX game">
+        <meta name="viewport" content="width= device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.9/p5.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.9/addons/p5.dom.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.9/addons/p5.sound.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="sketch.js"></script>
+        <script src="tile.js"></script>
+    </head>
+    <body>
+
+        <div class="toolbar">
+            <ul>
+                <li><button id="restart" title="Restart the game">Restart</button></li>
+                <li><button id="mode" title="Switch between line and symbol mode">Line mode</button></li>
+                <li><button id="undo" title="Undo the last action">Undo</button></li>
+                <li><button id="redo" title="Redo the last undo">Redo</button></li>
+            </ul>
+        </div>
+
+        <div class="top">
+            <h1 title="A game made by Yiğit Karataş" style="margin: 0; margin-left: 15px;">Advanced XOX</h1>
+        </div>
+
+        <div id="sketch-holder">
+            <!-- Our sketch will go here! -->
+        </div>
+
+    </body>
+</html>
